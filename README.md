@@ -40,5 +40,31 @@
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/insightmate.git
-   cd insightmate
+   git clone https://github.com/shibinyousaf/insightmate-chatbot.git
+   cd insightmate-chatbot
+
+
+## ⚙️ Project Phases and Python Commands
+
+You can run the complete chatbot app in three phases. Make sure the backend runs in a separate terminal window.
+
+###  Phase 1: Create AI Agent
+
+```bash
+python ai_agent.py
+```
+
+
+###  Phase 2: Setup Backend with FastAPI
+
+```bash
+python backend.py
+```
+
+###  Phase 3: Setup Frontend with Streamlit
+```bash
+streamlit run frontend.py
+```
+
+
+   
