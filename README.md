@@ -58,7 +58,7 @@ python ai_agent.py
 ###  Phase 2: Setup Backend with FastAPI
 
 ```bash
-python backend.py
+uvicorn backend:app --reload
 ```
 
 ###  Phase 3: Setup Frontend with Streamlit
